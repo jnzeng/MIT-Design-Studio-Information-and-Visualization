@@ -31,5 +31,85 @@ h2{
     font-size: 20pt;
 }
 
+#mobile1 {
+    color: #fff;
+    background: linear-gradient(150deg, #b8bcd5, #e8cfd3);
+    font-family: "proxima-nova", 'Montserrat', sans-serif;
+    overflow: hidden;
+    animation: animatedBackground 40s linear infinite;
+    position: relative;
+}
 
-p.clear{height: 2px; margin-bottom: 3px;}
+
+
+#mobile1 .today {
+    text-transform: uppercase;
+    text-align: center;
+/*    padding: 1.5em 1em 1em;*/
+}
+
+
+#mobile1 .today h1 {
+    font-family: 'Roboto Condensed', serif;
+    font-weight: 300;
+    letter-spacing: 0.4em;
+    font-size: 1.0em;
+    margin-top: 1.5em;
+    margin-right: -0.5em;
+}
+
+
+#mobile1 .today .celsius {
+    font-family: 'Bahnschrift', serif;
+    font-weight: 200;
+    letter-spacing: 0.2em;
+    cursor: pointer;
+}
+
+
+#mobile1 .today .object0 {
+    position: relative;
+    top: 20px;
+    left: 80px;
+    width: 253px;
+    height: 253px;
+    border-radius: 100%;
+    background: linear-gradient(to right, #93a8d1, #93a8d1);
+
+}
+
+#mobile1 .today .object2 {
+    position: relative;
+    top: 20px;
+    left: 80px;
+    width: 253px;
+    height: 253px;
+    border-radius: 100%;
+    background: linear-gradient(to right, #c5bcd1, #93a8d1, #93a8d1, #93a8d1);
+
+}
+
+
+#mobile1 .today .object2 {
+    position: relative;
+    top: 20px;
+    left: 80px;
+    width: 253px;
+    height: 253px;
+    border-radius: 100%;
+    background: linear-gradient(to right, #c5bcd1, #93a8d1, #93a8d1, #93a8d1);
+
+}
+
+
+#mobile1 .today .object1 {
+    position: relative;
+    top: 20px;
+    left: 80px;
+    width: 253px;
+    height: 253px;
+    border-radius: 100%;
+/*    background: linear-gradient(to left, #f5cfcf, rgb(255, 96, 133), rgba(255, 128, 133, 0.69), rgba(255, 182, 170, 0));*/
+    background: linear-gradient(to right, #f5cfcf, #93a8d1);
+
+}

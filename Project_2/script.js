@@ -1,97 +1,41 @@
+
 //plots
 
 
-var url = 'https://api.darksky.net/forecast/c6b293fcd2092b65cfb7313424b2f7ff/42.361145,-71.057083';
+// var url = 'https://api.darksky.net/forecast/c6b293fcd2092b65cfb7313424b2f7ff/42.361145,-71.057083'
 
-var mobile1 = d3.select('#mobile1');
+d3.json("data/boston_weather.json",draw);
 
-d3.json("data/boston_weather.json", draw);
-//d3.json("https://api.darksky.net/forecast/c6b293fcd2092b65cfb7313424b2f7ff/42.361145,-71.057083", draw);
+function draw(error,data){
+  
 
-
-
-var $todayTemp = d3.select('.todayTemp');
-
-function draw(error, data) {
-    var nowTime = new Date(data.currently.time);
-    console.log(nowTime);
-
-    for (i = 0; i < data.hourly.data.length; i++) {
-        console.log(new Date(data.hourly.data[i].time));
-    }
-
-    console.log(data);
-    d3.select('#todayDate').text(dayFormat(new Date()));
-
-    var todayTemp = data.currently.temperature;
-    console.log(todayTemp);
-
-    $todayTemp.text(Math.floor(todayTemp));
-
-    d3.select('.c').on("click", function () {
-        if (d3.select('.c').text() === '/C') {
-            d3.select('.f').text('°C');
-            d3.select('.c').text('/F');
-            $todayTemp.text(Math.floor(farToCelc(todayTemp)));
-        } else {
-            d3.select('.f').text('°F');
-            d3.select('.c').text('/C');
-            $todayTemp.text(Math.floor(todayTemp));
-        }
-    });
-
-    d3.select('#time-2').text(nowTime.getHours() - 2 + ':00');
-    d3.select('#time-1').text(nowTime.getHours() - 1 + ':00');
-    d3.select('#timePlus1').text(nowTime.getHours() + 1 + ':00');
-    d3.select('#timePlus2').text(nowTime.getHours() + 2 + ':00');
-
-    addWeatherIcon('#weather-icon-now', data.hourly.icon);
-    addWeatherIcon('#weather-icon-hrBefore2', data.hourly.data[0].icon);
-    addWeatherIcon('#weather-icon-hrBefore', data.hourly.data[1].icon);
-//    addWeatherIcon('#weather-icon-hrBefore', getIcon(nowTime.setHours(nowTime.getHours() - 1), data));
-    addWeatherIcon('#weather-icon-hrAfter', data.hourly.data[9].icon);
-    addWeatherIcon('#weather-icon-hrAfter2', data.hourly.data[12].icon);
 }
 
-function getIcon(time, data) {
-    console.log(time);
-    for (i = 0; i < data.hourly.data.length; i++) {
-        if (data.hourly.data[i].time === time) {
-            var icon = data.hourly.data[i].icon;
-        }
-    }
-    return icon;
-}
 
-function addWeatherIcon(dom, icon) {
-    console.log(icon);
-    if (icon === "snow") {
-        d3.select(dom).append("img")
-            .attr("src", "snow.svg")
-            .attr("width", 21)
-            .attr("height", 21);
-    } else if (icon === "cloudy") {
-        d3.select(dom).append("img")
-            .attr("src", "cloudy.svg")
-            .attr("width", 34)
-            .attr("height", 21);
-    } else if (icon.includes('partly-cloudy')) {
-        d3.select(dom).append("img")
-            .attr("src", "partlycloudy.svg")
-            .attr("width", 34)
-            .attr("height", 21);
-    }
-}
+// Define the gradient
+var gradient = svg.append("svg:defs")
+    .append("svg:linearGradient")
+    .attr("id", "gradient")
+    .attr("x1", "0%")
+    .attr("y1", "0%")
+    .attr("x2", "100%")
+    .attr("y2", "100%")
+    .attr("spreadMethod", "pad");
 
-var weekday = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+// Define the gradient colors
+gradient.append("svg:stop")
+    .attr("offset", "0%")
+    .attr("stop-color", "#a00000")
+    .attr("stop-opacity", 1);
 
-var monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+gradient.append("svg:stop")
+    .attr("offset", "100%")
+    .attr("stop-color", "#aaaa00")
+    .attr("stop-opacity", 1);
 
-function dayFormat(day) {
-    var s = weekday[day.getDay()] + ', ' + monthNames[day.getMonth()] + ' ' + day.getDate();
-    return s;
-}
-
-function farToCelc(fahrenheit) {
-    return (fahrenheit - 32) * 0.5556;
-}
+// Fill the circle with the gradient
+var circle = svg.append('circle')
+    .attr('cx', width / 2)
+    .attr('cy', height / 2)
+    .attr('r', height / 3)
+    .attr('fill', 'url(#gradient)');
