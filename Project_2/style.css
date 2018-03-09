@@ -53,13 +53,13 @@ h2{
     font-family: 'Roboto Condensed', serif;
     font-weight: 300;
     letter-spacing: 0.4em;
-    font-size: 1.0em;
+    font-size: 0.95em;
     margin-top: 1.5em;
     margin-right: -0.5em;
 }
 
 
-#mobile1 .today .celsius {
+#mobile1 .today .fahrenheit {
     font-family: 'Bahnschrift', serif;
     font-weight: 200;
     letter-spacing: 0.2em;
@@ -67,7 +67,7 @@ h2{
 }
 
 
-#mobile1 .today .object0 {
+#mobile1 .today .hour0 {
     position: relative;
     top: 20px;
     left: 80px;
@@ -78,38 +78,139 @@ h2{
 
 }
 
-#mobile1 .today .object2 {
+#mobile1 .today .hour2 {
     position: relative;
     top: 20px;
     left: 80px;
     width: 253px;
     height: 253px;
     border-radius: 100%;
-    background: linear-gradient(to right, #c5bcd1, #93a8d1, #93a8d1, #93a8d1);
+    background: linear-gradient(to right, #bcb8d1, #93a8d1, #93a8d1, #93a8d1);
 
 }
 
 
-#mobile1 .today .object2 {
+#mobile1 .today .hour4 {
     position: relative;
     top: 20px;
     left: 80px;
     width: 253px;
     height: 253px;
     border-radius: 100%;
-    background: linear-gradient(to right, #c5bcd1, #93a8d1, #93a8d1, #93a8d1);
+    background: linear-gradient(to right, #cec0cf, #93a8d1, #93a8d1);
+
+}
+
+#mobile1 .today .hour6 {
+    position: relative;
+    top: 20px;
+    left: 80px;
+    width: 253px;
+    height: 253px;
+    border-radius: 100%;
+    background: linear-gradient(to right, #d8c4d0, #b9b7cf, #93a8d1);
+
+}
+
+#mobile1 .today .hour8 {
+    position: relative;
+    top: 20px;
+    left: 80px;
+    width: 253px;
+    height: 253px;
+    border-radius: 100%;
+    background: linear-gradient(to right, #e1c7d0, #e1c7d0, #beb8d0, #93a8d1);
+
+}
+
+#mobile1 .today .hour10 {
+    position: relative;
+    top: 20px;
+    left: 80px;
+    width: 253px;
+    height: 253px;
+    border-radius: 100%;
+    background: linear-gradient(to right, #f5cecf, #f5cecf, #cbbed0);
+
+}
+
+#mobile1 .today .hour12 {
+    position: relative;
+    top: 20px;
+    left: 80px;
+    width: 253px;
+    height: 253px;
+    border-radius: 100%;
+    background: linear-gradient(to right, #f5cfcf, #f5cfcf);
+
+}
+
+#mobile1 .today .hour14 {
+    position: relative;
+    top: 20px;
+    left: 80px;
+    width: 253px;
+    height: 253px;
+    border-radius: 100%;
+    background: linear-gradient(to left, #f5cecf, #f5cecf, #cbbed0);
+
+}
+
+#mobile1 .today .hour16 {
+    position: relative;
+    top: 20px;
+    left: 80px;
+    width: 253px;
+    height: 253px;
+    border-radius: 100%;
+    background: linear-gradient(to left, #e1c7d0, #e1c7d0, #beb8d0, #93a8d1);
+
+}
+
+#mobile1 .today .hour18 {
+    position: relative;
+    top: 20px;
+    left: 80px;
+    width: 253px;
+    height: 253px;
+    border-radius: 100%;
+    background: linear-gradient(to left, #d8c4d0, #b9b7cf, #93a8d1);
+
+}
+
+#mobile1 .today .hour20 {
+    position: relative;
+    top: 20px;
+    left: 80px;
+    width: 253px;
+    height: 253px;
+    border-radius: 100%;
+    background: linear-gradient(to left, #cec0cf, #93a8d1, #93a8d1);
+    
+}
+
+#mobile1 .today .hour22 {
+    position: relative;
+    top: 20px;
+    left: 80px;
+    width: 253px;
+    height: 253px;
+    border-radius: 100%;
+    background: linear-gradient(to left, #bcb8d1, #93a8d1, #93a8d1, #93a8d1);
 
 }
 
 
-#mobile1 .today .object1 {
+/*
+#mobile1 .today .am1 {
     position: relative;
     top: 20px;
     left: 80px;
     width: 253px;
     height: 253px;
     border-radius: 100%;
-/*    background: linear-gradient(to left, #f5cfcf, rgb(255, 96, 133), rgba(255, 128, 133, 0.69), rgba(255, 182, 170, 0));*/
+    background: linear-gradient(to left, #f5cfcf, rgb(255, 96, 133), rgba(255, 128, 133, 0.69), rgba(255, 182, 170, 0));
     background: linear-gradient(to right, #f5cfcf, #93a8d1);
 
 }
+*/
