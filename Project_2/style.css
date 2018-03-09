@@ -31,9 +31,15 @@ h2{
     font-size: 20pt;
 }
 
+
+p{
+    text-align: justify;
+}
+
+
 #mobile1 {
     color: #fff;
-    background: linear-gradient(150deg, #b8bcd5, #e8cfd3);
+    background: linear-gradient(130deg, #b8bcd5, #e8cfd3);
     font-family: "proxima-nova", 'Montserrat', sans-serif;
     overflow: hidden;
     animation: animatedBackground 40s linear infinite;
@@ -59,31 +65,118 @@ h2{
 }
 
 
+#mobile1 .today h5 {
+    position: absolute;
+    font-family: 'Calibri', serif;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    font-size: 5.5em;
+    top: 85px;
+    left: 260px;
+    
+}
+
+#mobile1 .today h6 {
+    position: absolute;
+    font-family: 'Roboto Condensed', serif;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    font-size: 1.5em;
+    top: 80px;
+    left: 260px;
+    
+}
+
+#mobile1 .today h7 {
+    position: absolute;
+    font-family: 'Roboto Condensed', serif;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    top: 170px;
+    left: 270px;
+    z-index: 3;
+}
+
+#mobile1 .today h8 {
+    position: absolute;
+    font-family: 'Calibri', serif;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    font-size: 5.5em;
+    top: 310px;
+    left: 40px;
+transform: rotate(180deg);
+    opacity: 0.5;
+    z-index: 0;
+    
+}
+
+#mobile1 .today h9 {
+    position: absolute;
+    font-family: 'Roboto Condensed', serif;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    top: 320px;
+    left: 40px;
+    transform: rotate(180deg);
+    opacity: 0.5;
+    z-index: 3;
+    
+}
+
+#mobile1 .today h10 {
+    position: absolute;
+    font-family: 'Roboto Condensed', serif;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    top: 500px;
+    left: 20px;
+    z-index: 3;
+}
+
 #mobile1 .today .fahrenheit {
+    position: absolute;
     font-family: 'Bahnschrift', serif;
     font-weight: 200;
-    letter-spacing: 0.2em;
+    letter-spacing: 0.1em;
     cursor: pointer;
+    font-size: 1.3em;
+    top: 102px;
+    left: 353px;
 }
 
 
 #mobile1 .today .hour0 {
-    position: relative;
-    top: 20px;
+    position: absolute;
+    top: 140px;
     left: 80px;
     width: 253px;
     height: 253px;
     border-radius: 100%;
     background: linear-gradient(to right, #93a8d1, #93a8d1);
+    z-index: 1;
+
+}
+
+#mobile1 .today .weather {
+    position: absolute;
+    top: 140px;
+    left: 80px;
+   border-width: 0%;
+ z-index: 2;
+    mix-blend-mode: soft-light
 
 }
 
 #mobile1 .today .hour2 {
-    position: relative;
-    top: 20px;
-    left: 80px;
-    width: 253px;
-    height: 253px;
+    position: absolute;
+    top: 600px;
+    left: 30px;
+    width: 60px;
+    height: 60px;
     border-radius: 100%;
     background: linear-gradient(to right, #bcb8d1, #93a8d1, #93a8d1, #93a8d1);
 
@@ -91,8 +184,8 @@ h2{
 
 
 #mobile1 .today .hour4 {
-    position: relative;
-    top: 20px;
+    position: absolute;
+    top: 140px;
     left: 80px;
     width: 253px;
     height: 253px;
@@ -102,8 +195,8 @@ h2{
 }
 
 #mobile1 .today .hour6 {
-    position: relative;
-    top: 20px;
+    position: absolute;
+    top: 140px;
     left: 80px;
     width: 253px;
     height: 253px;
@@ -113,19 +206,20 @@ h2{
 }
 
 #mobile1 .today .hour8 {
-    position: relative;
-    top: 20px;
+    position: absolute;
+    top: 140px;
     left: 80px;
     width: 253px;
     height: 253px;
     border-radius: 100%;
     background: linear-gradient(to right, #e1c7d0, #e1c7d0, #beb8d0, #93a8d1);
+    z-index: 1;
 
 }
 
 #mobile1 .today .hour10 {
-    position: relative;
-    top: 20px;
+    position: absolute;
+    top: 140px;
     left: 80px;
     width: 253px;
     height: 253px;
@@ -135,8 +229,8 @@ h2{
 }
 
 #mobile1 .today .hour12 {
-    position: relative;
-    top: 20px;
+    position: absolute;
+    top: 140px;
     left: 80px;
     width: 253px;
     height: 253px;
@@ -146,8 +240,8 @@ h2{
 }
 
 #mobile1 .today .hour14 {
-    position: relative;
-    top: 20px;
+    position: absolute;
+    top: 140px;
     left: 80px;
     width: 253px;
     height: 253px;
@@ -157,8 +251,8 @@ h2{
 }
 
 #mobile1 .today .hour16 {
-    position: relative;
-    top: 20px;
+    position: absolute;
+    top: 140px;
     left: 80px;
     width: 253px;
     height: 253px;
@@ -168,8 +262,8 @@ h2{
 }
 
 #mobile1 .today .hour18 {
-    position: relative;
-    top: 20px;
+    position: absolute;
+    top: 140px;
     left: 80px;
     width: 253px;
     height: 253px;
@@ -179,8 +273,8 @@ h2{
 }
 
 #mobile1 .today .hour20 {
-    position: relative;
-    top: 20px;
+    position: absolute;
+    top: 140px;
     left: 80px;
     width: 253px;
     height: 253px;
@@ -190,8 +284,8 @@ h2{
 }
 
 #mobile1 .today .hour22 {
-    position: relative;
-    top: 20px;
+    position: absolute;
+    top: 140px;
     left: 80px;
     width: 253px;
     height: 253px;
@@ -201,16 +295,3 @@ h2{
 }
 
 
-/*
-#mobile1 .today .am1 {
-    position: relative;
-    top: 20px;
-    left: 80px;
-    width: 253px;
-    height: 253px;
-    border-radius: 100%;
-    background: linear-gradient(to left, #f5cfcf, rgb(255, 96, 133), rgba(255, 128, 133, 0.69), rgba(255, 182, 170, 0));
-    background: linear-gradient(to right, #f5cfcf, #93a8d1);
-
-}
-*/
