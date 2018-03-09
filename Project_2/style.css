@@ -14,6 +14,8 @@ body {
 }
 
 
+
+
 .header .title {
     font-family: 'Nunito', serif;
     font-size: 3.5em;
@@ -51,7 +53,6 @@ p{
 #mobile1 .today {
     text-transform: uppercase;
     text-align: center;
-/*    padding: 1.5em 1em 1em;*/
 }
 
 
@@ -159,8 +160,84 @@ transform: rotate(180deg);
     font-weight: 200;
     letter-spacing: 0.1em;
     font-size: 1em;
-    top: 500px;
-    left: 20px;
+    top: 600px;
+    left: 50px;
+    z-index: 3;
+}
+
+#mobile1 .today h11 {
+    position: absolute;
+    font-family: 'Roboto Condensed', serif;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    top: 600px;
+    left: 150px;
+    z-index: 3;
+}
+
+#mobile1 .today h12 {
+    position: absolute;
+    font-family: 'Roboto Condensed', serif;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    top: 600px;
+    left: 250px;
+    z-index: 3;
+}
+
+#mobile1 .today h13 {
+    position: absolute;
+    font-family: 'Roboto Condensed', serif;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    top: 600px;
+    left: 350px;
+    z-index: 3;
+}
+
+#mobile1 .today h14 {
+    position: absolute;
+    font-family: 'Roboto Condensed', serif;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    top: 700px;
+    left: 40px;
+    z-index: 3;
+}
+
+#mobile1 .today h15 {
+    position: absolute;
+    font-family: 'Roboto Condensed', serif;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    top: 700px;
+    left: 140px;
+    z-index: 3;
+}
+
+#mobile1 .today h16 {
+    position: absolute;
+    font-family: 'Roboto Condensed', serif;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    top: 700px;
+    left: 240px;
+    z-index: 3;
+}
+#mobile1 .today h17 {
+    position: absolute;
+    font-family: 'Roboto Condensed', serif;
+    font-weight: 200;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    top: 700px;
+    left: 340px;
     z-index: 3;
 }
 
@@ -198,9 +275,57 @@ transform: rotate(180deg);
 
 }
 
+#mobile1 .today .weatherm1 {
+    position: absolute;
+    top: 630px;
+    left: 30px;
+    width: 60px;
+    height: 60px;
+   border-width: 0%;
+ z-index: 2;
+    mix-blend-mode: soft-light
+
+}
+
+#mobile1 .today .weathern {
+    position: absolute;
+    top: 630px;
+    left: 130px;
+    width: 60px;
+    height: 60px;
+   border-width: 0%;
+ z-index: 2;
+    mix-blend-mode: soft-light
+
+}
+
+#mobile1 .today .weather1 {
+    position: absolute;
+    top: 630px;
+    left: 230px;
+    width: 60px;
+    height: 60px;
+   border-width: 0%;
+ z-index: 2;
+    mix-blend-mode: soft-light
+
+}
+
+#mobile1 .today .weather2 {
+    position: absolute;
+    top: 630px;
+    left: 330px;
+    width: 60px;
+    height: 60px;
+   border-width: 0%;
+ z-index: 2;
+    mix-blend-mode: soft-light
+
+}
+
 #mobile1 .today .hour2 {
     position: absolute;
-    top: 600px;
+    top: 630px;
     left: 30px;
     width: 60px;
     height: 60px;
@@ -212,10 +337,10 @@ transform: rotate(180deg);
 
 #mobile1 .today .hour4 {
     position: absolute;
-    top: 140px;
-    left: 80px;
-    width: 253px;
-    height: 253px;
+    top: 630px;
+    left: 130px;
+    width: 60px;
+    height: 60px;
     border-radius: 100%;
     background: linear-gradient(to right, #cec0cf, #93a8d1, #93a8d1);
 
@@ -223,10 +348,10 @@ transform: rotate(180deg);
 
 #mobile1 .today .hour6 {
     position: absolute;
-    top: 140px;
-    left: 80px;
-    width: 253px;
-    height: 253px;
+  top: 630px;
+    left: 230px;
+    width: 60px;
+    height: 60px;
     border-radius: 100%;
     background: linear-gradient(to right, #d8c4d0, #b9b7cf, #93a8d1);
 
@@ -234,10 +359,10 @@ transform: rotate(180deg);
 
 #mobile1 .today .hour8 {
     position: absolute;
-    top: 140px;
-    left: 80px;
-    width: 253px;
-    height: 253px;
+    top: 630px;
+    left: 330px;
+    width: 60px;
+    height: 60px;
     border-radius: 100%;
     background: linear-gradient(to right, #e1c7d0, #e1c7d0, #beb8d0, #93a8d1);
     z-index: 1;
@@ -252,6 +377,7 @@ transform: rotate(180deg);
     height: 253px;
     border-radius: 100%;
     background: linear-gradient(to right, #f5cecf, #f5cecf, #cbbed0);
+    z-index: 1;
 
 }
 
@@ -319,6 +445,20 @@ transform: rotate(180deg);
     border-radius: 100%;
     background: linear-gradient(to left, #bcb8d1, #93a8d1, #93a8d1, #93a8d1);
 
+}
+
+#mobile2 .art{
+    position: relative;
+    z-index: 1;
+    
+}
+
+
+#mobile2 .weatherw{
+    position: relative;
+    top: -745px;
+    z-index: 2;
+    
 }
 
 

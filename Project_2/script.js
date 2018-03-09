@@ -8,6 +8,7 @@ d3.json("data/boston_weather.json", draw);
 
 
 var mobile1 = d3.select('#mobile1');
+var mobile2 = d3.select('#mobile2');
 
 function draw(error, data){
 
@@ -61,12 +62,27 @@ function draw(error, data){
     document.getElementById("weather").src = 'raining.gif';
    // document.getElementById("weather").src = 'cloud.png';
      //document.getElementById("weather").src = 'snow.png';
-    mobile1.select('.weeklyTemp').text(Math.floor(data.daily.data[1].temperatureLow));
-    mobile1.select('.weeklyHigh').text(Math.floor(data.daily.data[1].temperatureHigh));
+    
+    var tm1 = nowTime.getHours + 1;
+    
+    mobile1.select('.tempm1').text(Math.floor(data.hourly.data[0].temperature)+'°F');
+    mobile1.select('.temp').text(Math.floor(data.hourly.data[1].temperature)+'°F');
+    mobile1.select('.temp1').text(Math.floor(data.hourly.data[2].temperature)+'°F');
+    mobile1.select('.temp2').text(Math.floor(data.hourly.data[3].temperature)+'°F');
+    
+    document.getElementById("weatherm1").src = 'clear.png';
+    document.getElementById("weathern").src = 'raining.gif';
+    document.getElementById("weather1").src = 'cloud.png';
+    document.getElementById("weather2").src = 'snow.png';
+    
+    //mobile1.select('.tm1').text('1：00')；
     
      mobile1.select('.hour2').style('background', 'linear-gradient(to right, #bcb8d1, #93a8d1, #93a8d1, #93a8d1)');
     
 //    mobile1.select('.weeklyTemp').text(Math.floor(data.daily.data[1].temperatureLow) + '        ' + Math.floor(data.daily.data[2].temperatureLow)+ '        ' + Math.floor(data.daily.data[3].temperatureLow)+ '        ' + Math.floor(data.daily.data[4].temperatureLow));
+    
+    document.getElementById("art").src = 'artwork.png';
+    document.getElementById("weatherw").src = 'rainwindow.png';
     
 
 }
