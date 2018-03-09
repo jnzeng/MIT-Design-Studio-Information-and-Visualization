@@ -55,13 +55,40 @@ p{
 }
 
 
+#mobile1 .today h0 {
+    position: absolute;
+    font-family: 'Calibri', serif;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    font-size: 2.5em;
+    top: 4px;
+    left: 20px;
+    
+}
+
+#mobile1 .today h00 {
+    position: absolute;
+    font-family: 'Calibri', serif;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    font-size: 2.5em;
+    top: 4px;
+    left: 375px;
+    
+}
+
 #mobile1 .today h1 {
+    position: absolute;
     font-family: 'Roboto Condensed', serif;
     font-weight: 300;
     letter-spacing: 0.4em;
     font-size: 0.95em;
+    top: 1.5em;
+    left: 135px;
+/*
     margin-top: 1.5em;
     margin-right: -0.5em;
+*/
 }
 
 
@@ -79,22 +106,22 @@ p{
 #mobile1 .today h6 {
     position: absolute;
     font-family: 'Roboto Condensed', serif;
-    font-weight: 200;
-    letter-spacing: 0.1em;
-    font-size: 1.5em;
+    font-weight: 300;
+    letter-spacing: 1.6em;
+    font-size: 0.7em;
     top: 80px;
-    left: 260px;
+    left: 267px;
     
 }
 
 #mobile1 .today h7 {
     position: absolute;
     font-family: 'Roboto Condensed', serif;
-    font-weight: 200;
-    letter-spacing: 0.1em;
+    font-weight: 250;
+    letter-spacing: 0.05em;
     font-size: 1em;
-    top: 170px;
-    left: 270px;
+    top: 173px;
+    left: 264px;
     z-index: 3;
 }
 
@@ -104,7 +131,7 @@ p{
     font-weight: 500;
     letter-spacing: 0.05em;
     font-size: 5.5em;
-    top: 310px;
+    top: 320px;
     left: 40px;
 transform: rotate(180deg);
     opacity: 0.5;
@@ -115,11 +142,11 @@ transform: rotate(180deg);
 #mobile1 .today h9 {
     position: absolute;
     font-family: 'Roboto Condensed', serif;
-    font-weight: 200;
-    letter-spacing: 0.1em;
-    font-size: 1em;
-    top: 320px;
-    left: 40px;
+    font-weight: 300;
+    letter-spacing: 0.25em;
+    font-size: 0.7em;
+    top: 330px;
+    left: 47px;
     transform: rotate(180deg);
     opacity: 0.5;
     z-index: 3;
