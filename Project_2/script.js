@@ -72,11 +72,11 @@ function backgdColor(hr, cls) {
 	} else if ([8, 9].includes(hr)) {
 		el.style.background = 'linear-gradient(to right, #e1c7d0, #e1c7d0, #beb8d0, #93a8d1)';
 	} else if ([16, 15].includes(hr)) {
-		el.style.background = 'linear-gradient(to letf, #e1c7d0, #e1c7d0, #beb8d0, #93a8d1)';
+		el.style.background = 'linear-gradient(to left, #e1c7d0, #e1c7d0, #beb8d0, #93a8d1)';
 	} else if ([10, 11].includes(hr)) {
 		el.style.background = 'linear-gradient(to right, #f5cecf, #f5cecf, #cbbed0)';
 	} else if ([13, 14].includes(hr)) {
-		el.style.background = 'linear-gradient(to letf, #f5cecf, #f5cecf, #cbbed0)';
+		el.style.background = 'linear-gradient(to left, #f5cecf, #f5cecf, #cbbed0)';
 	} else {
 		el.style.background = 'linear-gradient(to right, #f5cfcf, #f5cfcf)';
 	}
