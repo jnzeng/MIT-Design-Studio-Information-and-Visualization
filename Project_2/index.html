@@ -97,7 +97,7 @@ Based on these two questions, I quickly sketched some ideas. The first idea is t
                     </div>
             
         </div>
-                <p class="col-md-12">Noticed that the first dashboard is a real-time working prototype. The “time” layer changes its color according to the time. The weather layer (clear, rainy, cloudy etc.) will change according to the real weather data.</p>
+                <p class="col-md-12">Noticed that the first dashboard is a real-time working prototype. The “time” layer changes its color according to the time. The weather layer (clear, rainy, cloudy etc.) will change according to the real weather data. (You can see the animation icon when it is actually rainy).</p>
         
     </div>
     
@@ -106,11 +106,23 @@ Based on these two questions, I quickly sketched some ideas. The first idea is t
     <div class="row">
         <h2 class="col-md-12">Second Dashboard</h2>
         <div id="mobile2">
-           
-            <img  class= "art" id = "art" alt="art" />
-            
-            <img  class= "weatherw" id = "weatherw" alt="weatherw" />
+            <div class="background"></div>
+            <div class="todayy">   
+               <h20>RAIN</h20>
+               <h18 class="currTemp">00</h18>
+               <h21 class="range">00</h21>
+               <h22 class="feelsLike">00</h22>
+               <h23 class="humidityy">00</h23>
+               <h24 class="windSpd">00</h24>
+               <h25>don't forget your</h25>
+               <h26>umbrella.</h26>
+               <h19>°F</h19>
+               <img  class= "art" id = "art" alt="art" />
+               <img  class= "weatherw" id = "weatherw" alt="weatherw" /> 
+
+            </div>
         </div>
+              <p class="col-md-12">All the data used in the second dashboard is real-time too. But I chose “rainy” condition to illustrate this concept. The actual working model will use the same method to choose weather filter layer as in the first dashboard. The whole interface becomes darker as time goes by – since it’s using very similar code to the first one, I didn’t code this part for this concept.</p>
     </div>
 </div>
 

@@ -91,9 +91,14 @@ function draw(error, data){
 	var nowTime = new Date(data.currently.time * 1000);
 	var currTemp = data.currently.temperature;
 	mobile1.select('.currTemp').text(Math.floor(currTemp));
+    mobile2.select('.currTemp').text(Math.floor(currTemp));
 	mobile1.select('.iconName').text(data.currently.icon);
 	mobile1.select('.range').text('▲ ' + Math.floor(data.daily.data[0].temperatureHigh) + '   ▼ ' + Math.floor(data.daily.data[0].temperatureLow));
+    mobile2.select('.range').text(Math.floor(data.daily.data[0].temperatureHigh) + '   ~ ' + Math.floor(data.daily.data[0].temperatureLow));
 	mobile1.select('.feelsLike').text(Math.floor(data.currently.apparentTemperature));
+    mobile2.select('.feelsLike').text('Feels like ' + Math.floor(data.currently.apparentTemperature) + '°F,');
+    mobile2.select('.humidityy').text('humidity ' + Math.floor(data.currently.humidity * 100) + '°%,');
+    mobile2.select('.windSpd').text('wind speed ' + Math.floor(data.currently.windSpeed) + 'm/s,');
 	
 	var todayIcon = data.currently.icon;
 	

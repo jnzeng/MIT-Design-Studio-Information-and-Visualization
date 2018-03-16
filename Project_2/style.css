@@ -494,18 +494,158 @@ transform: rotate(180deg);
     left: 300px;
 }
 
-#mobile2 .art{
+
+#mobile2 {
+/*    color: #fff;*/
+    background: #ffffff
+/*    border: 1px solid;*/
+/*    background-image: url("artwork.png");*/
+    font-family: "proxima-nova", 'Montserrat', sans-serif;
+    overflow: hidden;
+    animation: animatedBackground 40s linear infinite;
     position: relative;
+}
+
+
+#mobile2 .todayy {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#mobile2 .todayy .art{
+    position: absolute;
+    z-index: 1;
+    top:0px;
+    left: 0px;
+    
+}
+
+
+#mobile2 .todayy .weatherw{
+    position: absolute;
+    top:0px;
+    left: 0px;
+    z-index: 2;
+    opacity: 0.8;
+    
+}
+
+
+#mobile2 .todayy h18 {
+    position: absolute;
+    font-family: 'Roboto', serif;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    font-size: 5.5em;
+    top: 312px;
+    left: 125px;
     z-index: 1;
     
 }
 
-
-#mobile2 .weatherw{
-    position: relative;
-    top: -736px;
-    z-index: 2;
+#mobile2 .todayy h19 {
+    position: absolute;
+    font-family: 'Roboto', serif;
+    font-weight: 200;
+    letter-spacing: 0.05em;
+    font-size: 1.3em;
+    top: 385px;
+    left: 230px;
+    z-index: 1;
+    opacity: 0.8;
     
 }
 
 
+#mobile2 .todayy h20{
+    font-family: 'Roboto Condensed', serif;
+    font-weight: 300;
+    letter-spacing: 1.3em;
+    font-size: 1em;
+    position: absolute;
+    top: 440px;
+    left: 125px;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+
+#mobile2 .todayy h21 {
+    position: absolute;
+    font-family: 'Roboto Condensed', serif;
+    font-weight: 250;
+    letter-spacing: 0.5em;
+    font-size: 1em;
+    top: 420px;
+    left: 125px;
+    z-index: 2;
+    opacity: 0.8;
+}
+
+#mobile2 .todayy h22 {
+    text-transform: lowercase;
+    position: absolute;
+    font-family: 'Roboto Condensed', serif;
+    font-weight: 250;
+    letter-spacing: 0.07em;
+    font-size: 0.95em;
+    top: 500px;
+    left: 125px;
+    z-index: 2;
+    opacity: 0.8;
+}
+
+#mobile2 .todayy h23 {
+    text-transform: lowercase;
+    position: absolute;
+    font-family: 'Roboto Condensed', serif;
+    font-weight: 250;
+    letter-spacing: 0.07em;
+    font-size: 0.95em;
+    top: 523px;
+    left: 125px;
+    z-index: 2;
+    opacity: 0.8;
+}
+
+#mobile2 .todayy h24 {
+    text-transform: lowercase;
+    position: absolute;
+    font-family: 'Roboto Condensed', serif;
+    font-weight: 250;
+    letter-spacing: 0.07em;
+    font-size: 0.95em;
+    top: 546px;
+    left: 125px;
+    z-index: 2;
+    opacity: 0.8;
+}
+
+#mobile2 .todayy h25 {
+    text-align: left;
+    text-transform: lowercase;
+    position: absolute;
+    font-family: 'Roboto Condensed', serif;
+    font-weight: 250;
+    letter-spacing: 0.07em;
+    font-size: 0.95em;
+    top: 569px;
+    left: 125px;
+    z-index: 2;
+    opacity: 0.8;
+}
+
+#mobile2 .todayy h26 {
+    color: firebrick;
+    text-align: left;
+    text-transform: lowercase;
+    position: absolute;
+    font-family: 'Roboto Condensed', serif;
+    font-weight: 250;
+    letter-spacing: 0.07em;
+    font-size: 1.5em;
+    top: 560px;
+    left: 250px;
+    z-index: 2;
+    opacity: 0.8;
+}
