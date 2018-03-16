@@ -323,6 +323,7 @@ transform: rotate(180deg);
 
 #mobile1 .today .weather2 {
     position: absolute;
+    border-radius: 50%;
     top: 600px;
     left: 300px;
     width: 60px;
