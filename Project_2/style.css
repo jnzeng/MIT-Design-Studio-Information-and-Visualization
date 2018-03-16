@@ -88,7 +88,7 @@ p{
     letter-spacing: 0.4em;
     font-size: 0.95em;
     top: 1.5em;
-    left: 135px;
+    left: 145px;
 /*
     margin-top: 1.5em;
     margin-right: -0.5em;
@@ -98,12 +98,12 @@ p{
 
 #mobile1 .today h5 {
     position: absolute;
-    font-family: 'Calibri', serif;
-    font-weight: 500;
+    font-family: 'Roboto', serif;
+    font-weight: 400;
     letter-spacing: 0.05em;
     font-size: 5.5em;
     top: 85px;
-    left: 260px;
+    left: 247px;
     
 }
 
@@ -132,12 +132,12 @@ p{
 
 #mobile1 .today h8 {
     position: absolute;
-    font-family: 'Calibri', serif;
-    font-weight: 500;
+    font-family: 'Roboto', serif;
+    font-weight: 400;
     letter-spacing: 0.05em;
     font-size: 5.5em;
     top: 320px;
-    left: 40px;
+    left: 50px;
 transform: rotate(180deg);
     opacity: 0.5;
     z-index: 0;
@@ -148,10 +148,10 @@ transform: rotate(180deg);
     position: absolute;
     font-family: 'Roboto Condensed', serif;
     font-weight: 300;
-    letter-spacing: 0.25em;
+    letter-spacing: 0.45em;
     font-size: 0.7em;
     top: 330px;
-    left: 47px;
+    left: 53px;
     transform: rotate(180deg);
     opacity: 0.5;
     z-index: 3;
@@ -164,8 +164,8 @@ transform: rotate(180deg);
     font-weight: 200;
     letter-spacing: 0.1em;
     font-size: 1em;
-    top: 600px;
-    left: 50px;
+    top: 570px;
+    left: 70px;
     z-index: 3;
 }
 
@@ -175,7 +175,7 @@ transform: rotate(180deg);
     font-weight: 200;
     letter-spacing: 0.1em;
     font-size: 1em;
-    top: 600px;
+    top: 570px;
     left: 150px;
     z-index: 3;
 }
@@ -186,8 +186,8 @@ transform: rotate(180deg);
     font-weight: 200;
     letter-spacing: 0.1em;
     font-size: 1em;
-    top: 600px;
-    left: 250px;
+    top: 570px;
+    left: 232px;
     z-index: 3;
 }
 
@@ -197,8 +197,8 @@ transform: rotate(180deg);
     font-weight: 200;
     letter-spacing: 0.1em;
     font-size: 1em;
-    top: 600px;
-    left: 350px;
+    top: 570px;
+    left: 315px;
     z-index: 3;
 }
 
@@ -208,8 +208,8 @@ transform: rotate(180deg);
     font-weight: 200;
     letter-spacing: 0.1em;
     font-size: 1em;
-    top: 700px;
-    left: 40px;
+    top: 670px;
+    left: 70px;
     z-index: 3;
 }
 
@@ -219,8 +219,8 @@ transform: rotate(180deg);
     font-weight: 200;
     letter-spacing: 0.1em;
     font-size: 1em;
-    top: 700px;
-    left: 140px;
+    top: 670px;
+    left: 150px;
     z-index: 3;
 }
 
@@ -230,8 +230,8 @@ transform: rotate(180deg);
     font-weight: 200;
     letter-spacing: 0.1em;
     font-size: 1em;
-    top: 700px;
-    left: 240px;
+    top: 670px;
+    left: 232px;
     z-index: 3;
 }
 #mobile1 .today h17 {
@@ -240,8 +240,8 @@ transform: rotate(180deg);
     font-weight: 200;
     letter-spacing: 0.1em;
     font-size: 1em;
-    top: 700px;
-    left: 340px;
+    top: 670px;
+    left: 315px;
     z-index: 3;
 }
 
@@ -285,8 +285,8 @@ transform: rotate(180deg);
 #mobile1 .today .weatherm1 {
     position: absolute;
     border-radius: 50%;
-    top: 630px;
-    left: 30px;
+    top: 600px;
+    left: 55px;
     width: 60px;
     height: 60px;
     border-width: 0%;
@@ -298,8 +298,8 @@ transform: rotate(180deg);
 #mobile1 .today .weathern {
     position: absolute;
     border-radius: 50%;
-    top: 630px;
-    left: 130px;
+    top: 600px;
+    left: 136px;
     width: 60px;
     height: 60px;
    border-width: 0%;
@@ -311,8 +311,8 @@ transform: rotate(180deg);
 #mobile1 .today .weather1 {
     position: absolute;
     border-radius: 50%;
-    top: 630px;
-    left: 230px;
+    top: 600px;
+    left: 218px;
     width: 60px;
     height: 60px;
    border-width: 0%;
@@ -323,8 +323,8 @@ transform: rotate(180deg);
 
 #mobile1 .today .weather2 {
     position: absolute;
-    top: 630px;
-    left: 330px;
+    top: 600px;
+    left: 300px;
     width: 60px;
     height: 60px;
    border-width: 0%;
@@ -471,27 +471,27 @@ transform: rotate(180deg);
 #mobile1 .today .circle-small1 {
     width: 60px;
     height: 60px;
-    top: 630px;
-    left: 30px;
+    top: 600px;
+    left: 55px;
 }
 
 #mobile1 .today .circle-small2 {
     width: 60px;
     height: 60px;
-    top: 630px;
-    left: 130px;
+    top: 600px;
+    left: 136px;
 }
 #mobile1 .today .circle-small3 {
     width: 60px;
     height: 60px;
-    top: 630px;
-    left: 230px;
+    top: 600px;
+    left: 218px;
 }
 #mobile1 .today .circle-small4 {
     width: 60px;
     height: 60px;
-    top: 630px;
-    left: 330px;
+    top: 600px;
+    left: 300px;
 }
 
 #mobile2 .art{
