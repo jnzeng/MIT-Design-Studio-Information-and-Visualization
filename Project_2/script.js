@@ -61,7 +61,7 @@ function backgdColor(hr, cls) {
 		el.style.background = 'linear-gradient(to right, #bcb8d1, #93a8d1, #93a8d1, #93a8d1)';
 	} else if ([22, 21].includes(hr)) {
 		el.style.background = 'linear-gradient(to left, #bcb8d1, #93a8d1, #93a8d1, #93a8d1)';
-	} else if ([4, 5, 20, 19].includes(hr)) {
+	} else if ([4, 5].includes(hr)) {
 		el.style.background = 'linear-gradient(to right, #cec0cf, #93a8d1, #93a8d1)';
 	} else if ([20, 19].includes(hr)) {
 		el.style.background = 'linear-gradient(to left, #cec0cf, #93a8d1, #93a8d1)';
