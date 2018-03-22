@@ -42,7 +42,7 @@ function iconToImg(icon) {
 	if (icon == 'rain') {
 		currImg = 'rain_2.gif'
 	} else if (icon == 'snow' || icon == 'sleet') {
-		currImg = 'snow_2.png'
+		currImg = 'snow_2.gif'
 	} else if (icon.indexOf('cloudy') !== -1) {
 		currImg = 'cloud_2.png'
 	} else {
