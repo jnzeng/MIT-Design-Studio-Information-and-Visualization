@@ -44,7 +44,7 @@ function iconToImg(icon) {
 	} else if (icon == 'snow' || icon == 'sleet') {
 		currImg = 'snow_2.gif'
 	} else if (icon.indexOf('cloudy') !== -1) {
-		currImg = 'cloud_2.png'
+		currImg = 'cloudhaha.png'
 	} else {
 		currImg = ""
 	}
