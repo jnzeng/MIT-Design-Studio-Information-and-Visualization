@@ -138,7 +138,8 @@ function draw(error, data){
 	 // curr_after2 = formatTime(data.hourly.data[3].time)
 	 
 	 mobile1.select('.tempm1').text(Math.floor(data.hourly.data[0].temperature)+'°F');
-	 mobile1.select('.curr_before1').text(curr_before1);
+//	 mobile1.select('.curr_before1').text(curr_before1);
+     mobile1.select('.now').text(curr_n);
 
 	 backgdColor(curr_before1_24, '.circle-small1');
 	 backgdColor(curr_n_24, '.circle-small2');
